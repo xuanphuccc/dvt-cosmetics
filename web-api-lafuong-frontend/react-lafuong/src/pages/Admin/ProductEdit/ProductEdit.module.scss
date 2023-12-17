@@ -1,0 +1,29 @@
+.product-img-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.product-img {
+  border-radius: 8px;
+  border: 1px solid var(--border-light);
+}
+
+.product-img-icon {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: var(--bg-white);
+  border-radius: 50px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(242 242 242);
+    color: var(--text-primary-color);
+  }
+}

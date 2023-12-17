@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bg-white);
+  z-index: 1;
+  user-select: none;
+}
+
+.header-nav {
+  height: 52px;
+}
+
+.header-logo {
+  height: 22px;
+}
+
+.maquee-wrap {
+  height: 42px;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.maquee {
+  width: 100%;
+  // overflow-x: hidden;
+  position: absolute;
+
+  animation: marquee 20s linear infinite;
+}
+
+.maquee-item {
+  height: 100%;
+  // width: 25%;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: -100%;
+  }
+}
