@@ -274,7 +274,7 @@ function ProductEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-0", "pb-1")} htmlFor="">
-                  Tên sản phẩm
+                  Tên sản phẩm <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.name}
@@ -288,7 +288,7 @@ function ProductEdit() {
 
               <div className={cx("form-group")}>
                 <label className={cx("form-label", "pt-0", "pb-1")} htmlFor="">
-                  Loại sản phẩm
+                  Loại sản phẩm <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.type}
@@ -308,7 +308,7 @@ function ProductEdit() {
                     })}
                   >
                     <label className={cx("form-label", "pt-2", "pb-1")} htmlFor="">
-                      Giá bán
+                      Giá bán <span className={cx("required-mark")}>*</span>
                     </label>
                     <Input
                       value={formData.price}
@@ -329,7 +329,7 @@ function ProductEdit() {
                     })}
                   >
                     <label className={cx("form-label", "pt-2", "pb-1")} htmlFor="">
-                      Giá nhập
+                      Giá nhập <span className={cx("required-mark")}>*</span>
                     </label>
                     <Input
                       value={formData.costPrice}
@@ -350,7 +350,7 @@ function ProductEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-2", "pb-1")} htmlFor="">
-                  Số lượng
+                  Số lượng <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.qty}

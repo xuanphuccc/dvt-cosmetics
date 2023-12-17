@@ -352,7 +352,7 @@ function CategoryEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-0", "pb-1")} htmlFor="">
-                  Tên khách hàng
+                  Tên khách hàng <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.customerName}
@@ -370,7 +370,7 @@ function CategoryEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-0", "pb-1")} htmlFor="">
-                  Số điện thoại
+                  Số điện thoại <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.customerPhone}
@@ -388,7 +388,7 @@ function CategoryEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-0", "pb-1")} htmlFor="">
-                  Địa chỉ
+                  Địa chỉ <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.address}
@@ -406,7 +406,7 @@ function CategoryEdit() {
                 })}
               >
                 <label className={cx("form-label", "pt-2", "pb-1")} htmlFor="">
-                  Phí vận chuyển
+                  Phí vận chuyển <span className={cx("required-mark")}>*</span>
                 </label>
                 <Input
                   value={formData.shippingFee}
@@ -430,7 +430,7 @@ function CategoryEdit() {
 
             <div className={cx("form-group")}>
               <label className={cx("form-label", "pt-0", "pb-1", "d-block")} htmlFor="">
-                Chọn sản phẩm
+                Chọn sản phẩm <span className={cx("required-mark")}>*</span>
               </label>
 
               <div className="d-flex">

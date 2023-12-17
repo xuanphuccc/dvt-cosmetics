@@ -214,6 +214,11 @@ li {
   padding-top: 4px;
 }
 
+.required-mark {
+  font-weight: 500;
+  color: var(--error-color);
+}
+
 .form-group.error .form-control,
 .form-group.error .form-control-group,
 .form-group.error .form-control-group > input {
